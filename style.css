@@ -1,0 +1,96 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.wpuf-users-order-by option[value="user_nicename"], .wpuf-users-order-by option[value="post_count"] {
+	display: none;
+}
+
+#wpuf-login-form a {
+	display: none;
+}
+
+/*ПОКАЗАТЬ ДИМАНУ В ЛЮБОМ СЛУЧАЕ!!!!!!!*/
+
+.comment-edit-link {
+    display: none !important;
+}
+
+@media screen and (max-width: 1000px) {
+	
+	/*Оформление главной страницы*/
+	
+	.elementor-element-238ddac {
+		padding: 15px !important;
+	}
+	
+	.elementor-element-84446e8 h3 {
+		text-align: center;
+		font-size: 28px;
+	}
+	
+	.elementor-element-b4ebbc5 .login {
+		text-align: center;
+	}
+	
+	.elementor-element-b4ebbc5 input[type="text"], .elementor-element-b4ebbc5 input[type="password"] {
+		width: 100%;
+	}
+	
+	.elementor-element-b4ebbc5 .forgetmenot {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.elementor-element-b4ebbc5 .forgetmenot input[type="checkbox"] {
+		margin-right: 5px;
+	}
+	
+	.elementor-element-b4ebbc5 .submit input[type="submit"] {
+		margin: 0 auto;
+	}
+	
+	.elementor-element-b4ebbc5 .wpuf-user-loggedin {
+		text-align: center;
+	}
+	
+	.elementor-element-b4ebbc5 .wpuf-user-loggedin .wpuf-user-avatar img {
+		margin-bottom: 10px;
+	}
+	
+	.elementor-element-1d61c67 .elementor-widget-wrap {
+		padding: 0px 0px 24px 0px !important;
+	}
+	
+	.elementor-element-1638406>.elementor-widget-container {
+		margin-top: 0px !important;
+	}
+	
+	.elementor-element-1638406>.elementor-widget-container>.elementor-button-wrapper {
+		display: flex;
+		justify-content: center;
+	}
+	
+	/*Оформление модальных окон добавления проекта/гз/задачи*/
+	
+	.elementor-element-2ae3e4a {
+		padding: 30px 0px 0px 0px !important;
+	}
+
+	.elementor-element-e2fc980 {
+		margin-bottom: 0 !important;
+	}
+	
+	.elementor-element-4d7e037>.elementor-widget-container {
+		margin: 10px 0 0 0 !important;
+	}
+}
